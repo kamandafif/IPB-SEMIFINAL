@@ -592,7 +592,7 @@ with tab3:
         )
     with colB:
         deductible_pct = st.slider(
-            "Deductible (%)", min_value=10, max_value=50, value=10,
+            "Deductible (%)", min_value=10, max_value=100, value=10,
             help="Persentase risiko yang ditanggung sendiri sebelum klaim dibayarkan.",
         )
     with colC:
